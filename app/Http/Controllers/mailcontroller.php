@@ -24,8 +24,8 @@ class mailcontroller extends Controller
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'ritamhit24@gmail.com'; // Your Gmail address
-            $mail->Password = 'ewjx foqm dltg yqvm'; // Your Gmail password or app password
+            $mail->Username =  // Your Gmail address
+            $mail->Password =  // Your Gmail password or app password
             $mail->SMTPSecure = 'tls'; // Enable TLS encryption
             $mail->Port = 587; // TCP port to connect to
 
